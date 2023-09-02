@@ -1,0 +1,40 @@
+.userFilter-wrap {
+  text-align: center;
+  margin-top: 30px;
+}
+/* .userFilter-wrap .userFilter-button-disabled {
+  margin: 5px;
+  border: none;
+  background: #e3e0e0;
+  color: #385712;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 0.9rem;
+} */
+
+#people {
+  cursor: not-allowed;
+}
+
+.userFilter-wrap button {
+  margin: 5px;
+  border: none;
+  background: #e3e0e0;
+  color: #385712;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.filter-active {
+  color: white !important;
+  background: linear-gradient(to right, #385712, #5f9919) !important;
+}
+.userFilter-wrap .clear-filter {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #385712;
+}

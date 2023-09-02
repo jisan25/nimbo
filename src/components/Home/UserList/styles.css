@@ -1,0 +1,18 @@
+.userList-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .userList-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .userList-wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

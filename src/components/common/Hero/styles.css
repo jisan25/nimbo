@@ -1,0 +1,30 @@
+.bg {
+  background-image: url("/assets/Hero-Bg-Nimbo.jpg");
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  position: relative;
+}
+.row {
+  background: rgba(56, 87, 18, 1);
+  overflow: hidden;
+  height: 300px;
+  z-index: 2;
+}
+.caption {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  top: 45%;
+}
+.caption span.border {
+  background-color: white;
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}

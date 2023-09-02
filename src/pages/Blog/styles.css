@@ -1,0 +1,24 @@
+.blogFilter-wrap {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.blogFilter-wrap button {
+  border: none;
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  margin-right: 0.6rem;
+  background-color: #befc60;
+  border-radius: 0.6rem;
+  font-weight: 400;
+}
+.blogFilter-wrap button.active {
+  background-color: #325203;
+  color: white;
+}
+
+.blogFilter-wrap .clear-filter {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #385712;
+}
